@@ -1,0 +1,27 @@
+{
+  "name": "@pipeworx/mcp-japan-procurement",
+  "version": "0.1.0",
+  "description": "Japan Procurement MCP — Japanese government tender notices (bid announcements) from national ministries, all 47 prefectures and municipalities, sourced from the Kankoju public procurement portal run by the Japan SME Agency.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-japan-procurement": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "japan-procurement"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-japan-procurement.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
