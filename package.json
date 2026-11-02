@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-japan-procurement",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Japan Procurement MCP — Japanese government tender notices (bid announcements) from national ministries, all 47 prefectures and municipalities, sourced from the Kankoju public procurement portal run by the Japan SME Agency.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "japan-procurement",
     "gatewaySlug": "japan-procurement",
-    "sourceHash": "v1-c7561964d8ef77fa8352c1a3ecbc0318a2793121e0e129bf7e3eecd22328e825",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-041cef9276edbf29b9859d82978a037b090d4ba2f08c708c28455dd43f1447e6",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
